@@ -4,13 +4,13 @@ NeuroDetect is an AI-powered brain cancer detection system that leverages deep l
 
 Project Overview
 - Objective: To develop a robust and accurate deep learning model for detecting brain cancer from MRI images.
-Technologies Used: Python, TensorFlow, Keras, VGG16, OpenCV, Matplotlib.
-Dataset: The project uses MRI scans split into training and testing datasets to train and evaluate the model.
+-Technologies Used: Python, TensorFlow, Keras, VGG16, OpenCV, Matplotlib.
+-Dataset: The project uses MRI scans split into training and testing datasets to train and evaluate the model.
 Features
 - Data Augmentation: Utilizes extensive data augmentation techniques to improve model generalization, including rotation, width/height shift, shear, zoom, and flip.
 - Transfer Learning: Implements the VGG16 model pre-trained on ImageNet as the base, fine-tuning it for brain cancer detection.
 - Model Regularization: Applies dropout and L2 regularization to prevent overfitting and improve model robustness.
-Performance Optimization: Includes callbacks such as early stopping, learning rate reduction, and model checkpointing to optimize training.
+-Performance Optimization: Includes callbacks such as early stopping, learning rate reduction, and model checkpointing to optimize training.
 Results
 Achieved significant accuracy improvements over the training epochs, with the final model exhibiting strong learning on training data and reasonable generalization on validation data.
 Training accuracy reached close to 95%, while validation accuracy stabilized around 75%, indicating good, but improvable, performance on unseen data.
